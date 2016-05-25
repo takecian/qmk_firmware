@@ -33,7 +33,7 @@ SRC = ergodox_ez.c \
 ifdef KEYMAP
     SRC := keymaps/$(KEYMAP)/keymap.c $(SRC)
 else
-    SRC := keymaps/default/keymap.c $(SRC)
+    SRC := keymaps/takecian/keymap.c $(SRC)
 endif
 
 CONFIG_H = config.h
